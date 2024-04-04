@@ -8,10 +8,7 @@
   --border: 1px solid #ffffff1a;
 }
 
-body,
-table,
-input,
-button {
+body, table, input, button{
   font: 300 16px/140% 'Roboto', sans-serif;
 }
 
@@ -21,12 +18,12 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 690px;
   margin: 0 auto;
   padding: 20px 32px;
 }
 
-header {
+header{
   padding: 20px 0;
 }
 
@@ -40,7 +37,7 @@ fieldset {
   border: none;
 }
 
-fieldset>div {
+fieldset > div {
   display: flex;
   gap: 12px;
 }
@@ -51,7 +48,7 @@ fieldset>div {
   display: flex;
   align-items: center;
   gap: 12px;
-
+  
   border: var(--border);
   border-radius: 10px;
 
@@ -65,8 +62,7 @@ input {
   all: unset;
 }
 
-fieldset legend,
-section h2 {
+fieldset legend, h2 {
   font: 700 16px/140% 'Roboto', sans-serif;
   color: #E1E1E6;
   padding-bottom: 16px;
@@ -84,7 +80,7 @@ fieldset button {
 }
 
 fieldset button:hover {
-  background: #f37c37;
+  background: #F37C37;
 }
 
 .lista-participantes {
@@ -124,14 +120,14 @@ tbody td strong {
   font-weight: 600;
 }
 
-tbody td small {
+tbody td small{
   font-size: 12px;
   line-height: 16px;
 }
 
 tbody td button {
   all: unset;
-  color: #9FF9CC;
+  color: #9ff9cc;
 }
 
 tbody td button:hover {
